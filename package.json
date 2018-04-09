@@ -1,19 +1,15 @@
 {
   "name": "contextual-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
-  "author":
-    "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
+  "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.44",
     "@babel/core": "^7.0.0-beta.44",
-    "@babel/plugin-proposal-class-properties":
-      "^7.0.0-beta.44",
-    "@babel/plugin-proposal-object-rest-spread":
-      "^7.0.0-beta.44",
-    "@babel/plugin-syntax-object-rest-spread":
-      "^7.0.0-beta.44",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.44",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.44",
+    "@babel/plugin-syntax-object-rest-spread": "^7.0.0-beta.44",
     "@babel/preset-env": "^7.0.0-beta.44",
     "@babel/preset-react": "^7.0.0-beta.44",
     "babel-core": "^7.0.0-0",
@@ -28,7 +24,10 @@
     "test": "jest --watchAll"
   },
   "babel": {
-    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
     "plugins": [
       "@babel/plugin-proposal-object-rest-spread",
       "@babel/plugin-proposal-class-properties"
